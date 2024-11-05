@@ -1,0 +1,66 @@
+/*основные стили*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: rgba(177, 177, 177, 0.363);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*основной контейнер*/
+.content-container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    gap: 20px;
+}
+/*левая и правая колонка*/
+.left-column, .right-column {
+    flex: 1;
+}
+/*блочные элементы*/
+.info-section, .button-section, .map-section {
+    padding: 20px;
+    color: rgb(36, 36, 36);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(64, 66, 66, 0.548);
+}
+/*оформление карты*/
+.map-container {
+    width: 100%;
+    border: 2px;
+}
+.map-iframe {
+    width: 100%;
+    height: 280px;
+    border: none;
+}
+/*кнопки*/
+.button-section {
+    flex-direction: column;
+    gap: 10px;
+}
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(43, 43, 43);
+    color: azure;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(65, 65, 65);
+}
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(39, 39, 39);
+    color: rgb(199, 207, 207);
+    padding: 10px;
+}
